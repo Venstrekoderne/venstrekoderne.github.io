@@ -3,6 +3,9 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   content: ["./**/*.html"],
   theme: {
+    fontFamily: {
+      sans: ["Sora", "Arial"]
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
