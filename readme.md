@@ -6,4 +6,6 @@ Kun litt HTML og CSS i denne omgang.
 
 Trenger tailwind installert for CSS parsing. Se [https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation)
 
-Så kjøre: `npx tailwindcss -o ./css/tailwind_output.css --watch` i grunnmappa.
+Så kjøre: `npx tailwindcss -i ./css/tailwind_input.css -o ./css/tailwind_output.css --watch ` i grunnmappa.
+
+Dette ser etter endringer både i .html-filer, og i tailwind_input.css, og kompilerer alt det til tailwind_output.css, som er den CSS-fila som brukes av siden.
