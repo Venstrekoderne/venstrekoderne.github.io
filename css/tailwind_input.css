@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    .a,
+    .content > a {
+        @apply underline;
+    }
+    .a:hover,
+    .content > a:hover  {
+       @apply text-sol-shade;
+    }
+    
+    .h1,
+    .content > h1 {
+        @apply text-3xl mt-6 mb-3; 
+        @apply font-extrabold;
+    }
+    .h2,
+    .content > h2 {
+        @apply text-2xl mt-6 mb-3; 
+    }
+    .h3,
+    .content > h3 {
+        @apply mt-6 mb-3; 
+        @apply font-extrabold;
+    }
+    .p,
+    .ol,
+    .ul,
+    .blockquote,
+    .content > p,
+    .content > ol,
+    .content > ul,
+    .content > blockquote {
+        @apply my-3; 
+    }
+    .ol,
+    .content > ol {
+        @apply list-decimal list-inside;
+    }
+    .ul,
+    .content > ul {
+        @apply list-disc list-inside;
+    }
+    .li,
+    .content > li {
+    }
+}
