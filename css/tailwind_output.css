@@ -557,6 +557,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: inline-block;
 }
 
+.max-h-64 {
+  max-height: 16rem;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
 .max-w-prose {
   max-width: 65ch;
 }
@@ -701,6 +709,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
+  }
+
+  .md\:h-\[196px\] {
+    height: 196px;
   }
 
   .md\:max-w-none {
