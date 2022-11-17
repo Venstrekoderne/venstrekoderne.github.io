@@ -665,11 +665,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 153 62 / var(--tw-text-opacity));
 }
 
-.text-krekling-shade {
-  --tw-text-opacity: 1;
-  color: rgb(123 5 45 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -677,11 +672,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-opacity-70 {
   --tw-text-opacity: 0.7;
-}
-
-.line-through {
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
 }
 
 .shadow-xl {
@@ -725,40 +715,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 196px;
   }
 
-  .md\:h-\[210px\] {
-    height: 210px;
-  }
-
-  .md\:h-\[300px\] {
-    height: 300px;
-  }
-
-  .md\:h-\[180px\] {
-    height: 180px;
-  }
-
-  .md\:h-\[184px\] {
-    height: 184px;
-  }
-
-  .md\:h-\[190px\] {
-    height: 190px;
-  }
-
-  .md\:h-\[188px\] {
-    height: 188px;
-  }
-
-  .md\:h-\[185px\] {
-    height: 185px;
-  }
-
-  .md\:h-\[182px\] {
-    height: 182px;
-  }
-
-  .md\:h-\[183px\] {
-    height: 183px;
+  .md\:h-\[165px\] {
+    height: 165px;
   }
 
   .md\:max-w-none {
