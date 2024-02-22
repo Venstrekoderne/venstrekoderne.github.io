@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
+! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -30,6 +30,7 @@
 2. Prevent adjustments of font size after orientation changes in iOS.
 3. Use a more readable tab size.
 4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
 */
 
 html {
@@ -44,6 +45,8 @@ html {
   /* 3 */
   font-family: Sora, Arial;
   /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
 }
 
 /*
@@ -186,6 +189,8 @@ textarea {
   font-family: inherit;
   /* 1 */
   font-size: 100%;
+  /* 1 */
+  font-weight: inherit;
   /* 1 */
   line-height: inherit;
   /* 1 */
@@ -353,13 +358,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   /* 2 */
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
-}
-
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
@@ -415,25 +413,25 @@ video {
   height: auto;
 }
 
-/*
-Ensure the default browser behavior of the `hidden` attribute.
-*/
+/* Make elements with the HTML hidden attribute stay hidden by default */
 
 [hidden] {
   display: none;
 }
 
-.a, .content > a {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+.a,
+    .content > a {
+  text-decoration-line: underline;
 }
 
-.a:hover, .content > a:hover {
+.a:hover,
+    .content > a:hover {
   --tw-text-opacity: 1;
   color: rgb(239 137 46 / var(--tw-text-opacity));
 }
 
-.h1, .content > h1 {
+.h1,
+    .content > h1 {
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
   font-size: 1.875rem;
@@ -441,30 +439,41 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 800;
 }
 
-.h2, .content > h2 {
+.h2,
+    .content > h2 {
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-.h3, .content > h3 {
+.h3,
+    .content > h3 {
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
   font-weight: 800;
 }
 
-.p, .ol, .ul, .blockquote, .content > p, .content > ol, .content > ul, .content > blockquote {
+.p,
+    .ol,
+    .ul,
+    .blockquote,
+    .content > p,
+    .content > ol,
+    .content > ul,
+    .content > blockquote {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
 
-.ol, .content > ol {
+.ol,
+    .content > ol {
   list-style-position: inside;
   list-style-type: decimal;
 }
 
-.ul, .content > ul {
+.ul,
+    .content > ul {
   list-style-position: inside;
   list-style-type: disc;
 }
@@ -474,6 +483,55 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 *, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -533,32 +591,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.5rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mb-3 {
   margin-bottom: 0.75rem;
-}
-
-.mr-1 {
-  margin-right: 0.25rem;
 }
 
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .inline-block {
@@ -650,11 +708,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-style: italic;
 }
 
-.text-venstregr\F8nn-standard {
-  --tw-text-opacity: 1;
-  color: rgb(0 102 102 / var(--tw-text-opacity));
-}
-
 .text-m\F8rk-tavle-standard {
   --tw-text-opacity: 1;
   color: rgb(0 51 51 / var(--tw-text-opacity));
@@ -663,6 +716,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-sol-standard {
   --tw-text-opacity: 1;
   color: rgb(255 153 62 / var(--tw-text-opacity));
+}
+
+.text-venstregr\F8nn-standard {
+  --tw-text-opacity: 1;
+  color: rgb(0 102 102 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -680,10 +738,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@-webkit-keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
+.ring {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
 @keyframes spin {
@@ -693,8 +751,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .hover\:animate-spin:hover {
-  -webkit-animation: spin 1s linear infinite;
-          animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
 }
 
 .hover\:text-sol-standard:hover {
@@ -711,12 +768,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: flex;
   }
 
-  .md\:h-\[196px\] {
-    height: 196px;
-  }
-
   .md\:h-\[165px\] {
     height: 165px;
+  }
+
+  .md\:h-\[196px\] {
+    height: 196px;
   }
 
   .md\:max-w-none {
