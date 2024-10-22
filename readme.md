@@ -4,7 +4,7 @@
 
 ### Møter
 * Legg bilde til eventet i images-mappa.
-* I `_posts`-mappa, kopier `md.template` til `YYYY-MM-DD-slug.md`
+* I `_posts`-mappa, kopier `md.template` til `YYYY-MM-DD-[slug].md`, f.eks. `2024-10-20-bursdag-for-bo.md`
 * Fyll inn informasjon i markdown-filen
 * Det siste møtet med next som tag er det som blir highlightet.
 
