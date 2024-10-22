@@ -1,1 +1,6 @@
 .DS_store
+Gemfile.lock
+.bundle
+node_modules
+_site
+vendor

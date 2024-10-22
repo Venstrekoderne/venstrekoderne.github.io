@@ -1,0 +1,22 @@
+<section class="my-12 content">
+  <h2 class="text-venstregrønn-standard font-bold">{{ site.data.styret.title }}</h2>
+  <p class="italic">{{ site.data.styret.subtitle }}</p>
+
+  <div class="">
+    <h3 class="h3">Leder</h3>
+    <p>{{ site.data.styret.leder.name }}</p>
+    <p>E-post: <a class="a" href="mailto:{{ site.data.styret.leder.email }}">{{ site.data.styret.leder.email }}</a></p>
+    <p>SMS/Signal/Whatsapp: <a class="a" href="sms:+47{{ site.data.styret.leder.phone }}">{{ site.data.styret.leder.phone }}</a></p>
+    <p>Github: <a class="a" href="{{ site.data.styret.leder.github }}">Github</a></p>
+  </div>
+  <div class="">
+    <h3 class="h3">Styremedlemmer</h3>
+    <ul>
+      {% for medlem in site.data.styret.medlemmer %}
+      <li>
+        {{ medlem }}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
