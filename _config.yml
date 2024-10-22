@@ -1,1 +1,5 @@
+title: Venstrekoderne
+description: "Vi bygger digitale verktøy og utvikler IT-politikk for partiet Venstre."
+baseurl: "" # leave empty for the root
+url: "https://www.venstrekoderne.no"
 include: [".well-known"]
