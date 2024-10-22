@@ -2,7 +2,7 @@
 layout: default
 title: "Står politikk i veien for Oslo Kommunes digitale tjenester?"
 date: 2024-02-13 18:00:00 +0200
-img: "images/19-des-oslo-origo.png"
+img: "images/19-des-oslo-origo.webp"
 ---
 ### Tid og sted
 Tirsdag 13. februar, kl. 18:00 - 20:00
