@@ -3,7 +3,6 @@ layout: default
 title: "Workshop #1 om Stortingsprogrammet 2025"
 date: 2024-03-12 18:00:00 +0200
 img: "images/workshop-stortingsprogrammet-del-1.webp"
-tags: [next]
 ---
 ### Tid og sted
 Tirsdag 12. mars, kl. 18:00 - 20:00
