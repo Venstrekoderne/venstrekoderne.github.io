@@ -50,6 +50,9 @@
             </picture>
             <div class="p-6 md:px-8 md:flex-1">
                 <h2 class="font-bold">{{ next_post.title }}</h2>
+                {% if next_post.time-and-place-summarized %} 
+                    <span class="my-3">{{ next_post.time-and-place-summarized }}</span>
+                {% endif % }
                 <details class="content mt-3">
                     <summary class="a cursor-pointer">
                         Les mer
