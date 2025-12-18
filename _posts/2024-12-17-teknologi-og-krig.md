@@ -5,7 +5,7 @@ date: 2024-12-17 18:00:00 +0200
 img: "images/møte-17-des-2024-teknologi-og-krig.webp"
 ---
 ### Tid og sted
-Tirsdag 17. desember, kl. 18:00 - 19:30
+Tirsdag 17. desember 2024, kl. 18:00 - 19:30
 Hybrid: Fysisk på Venstres hus, digitalt på <a class="a" href="https://whereby.com/venstrekoderne">https://whereby.com/venstrekoderne</a>
 
 ### Tema: Teknologi og krigføring

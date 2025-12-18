@@ -5,7 +5,7 @@ date: 2024-03-12 18:00:00 +0200
 img: "images/workshop-stortingsprogrammet-del-1.webp"
 ---
 ### Tid og sted
-Tirsdag 12. mars, kl. 18:00 - 20:00
+Tirsdag 12. mars 2024, kl. 18:00 - 20:00
 Hybrid: Fysisk på Venstres hus, digitalt på <a class="a" href="https://whereby.com/venstrekoderne">https://whereby.com/venstrekoderne</a>
 
 ### Workshop om stortingsprogrammet: Dagens program
