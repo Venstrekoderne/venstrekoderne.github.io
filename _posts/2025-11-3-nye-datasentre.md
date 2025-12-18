@@ -7,7 +7,7 @@ img: "images/3-nov-2025-maja-enes.webp"
 tags: [next]
 ---
 ### Tid og sted
-Mandag 3 november, kl. 18:00 - 19:30, Venstres hus i Oslo
+Mandag 3 november, kl. 18:00 - 19:30 2025, Venstres hus i Oslo
 Hybrid: Fysisk på Venstres hus, digitalt på <a class="a" href="https://whereby.com/venstrekoderne">https://whereby.com/venstrekoderne</a>
 
 ### Tema: Nye datasentre
