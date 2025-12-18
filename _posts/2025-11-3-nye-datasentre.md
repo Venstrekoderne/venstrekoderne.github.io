@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "Nye datasentre: Industrieventyr eller bortkastet strøm?"
-time-and-place-summarized: "Mandag 3 november, kl. 18:00 - 19:30, Hybrid (digitalt og Venstres hus i Oslo)"
+time-and-place-summarized: "Mandag 3. november 2025, kl. 18:00 - 19:30, Hybrid (digitalt og Venstres hus i Oslo)"
 date: 2025-11-03 18:00:00 +0200
 img: "images/3-nov-2025-maja-enes.webp"
 tags: [next]
 ---
 ### Tid og sted
-Mandag 3 november, kl. 18:00 - 19:30 2025, Venstres hus i Oslo
+Mandag 3. november 2025, kl. 18:00 - 19:30, Venstres hus i Oslo
 Hybrid: Fysisk på Venstres hus, digitalt på <a class="a" href="https://whereby.com/venstrekoderne">https://whereby.com/venstrekoderne</a>
 
 ### Tema: Nye datasentre
