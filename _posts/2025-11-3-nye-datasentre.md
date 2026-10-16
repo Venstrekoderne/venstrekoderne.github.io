@@ -4,7 +4,6 @@ title: "Nye datasentre: Industrieventyr eller bortkastet strøm?"
 time-and-place-summarized: "Mandag 3. november 2025, kl. 18:00 - 19:30, Hybrid (digitalt og Venstres hus i Oslo)"
 date: 2025-11-03 18:00:00 +0200
 img: "images/3-nov-2025-maja-enes.webp"
-tags: [next]
 ---
 ### Tid og sted
 Mandag 3. november 2025, kl. 18:00 - 19:30, Venstres hus i Oslo

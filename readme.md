@@ -3,10 +3,11 @@
 ## Gjøre endringer
 
 ### Møter
-* Legg bilde til eventet i images-mappa.
-* I `_posts`-mappa, kopier `md.template` til `YYYY-MM-DD-[slug].md`, f.eks. `2024-10-20-bursdag-for-bo.md`
-* Fyll inn informasjon i markdown-filen
-* Det siste møtet med next som tag er det som blir highlightet.
+Møtene legges inn i Vi: [venstre.medvi.no](https://venstre.medvi.no) → Venstrekoderne → Arrangementer, med bilde, tid, sted og beskrivelse. Siden henter dem selv (`kalender.js`, fra kalenderens offentlige JSON), viser kommende møter under «Neste møte» og resten under «Tidligere møter». En endring i Vi synes her innen fem minutter.
+
+Møtene i `_posts` og `_includes/gamle_moter.html` er bare reserve: de vises om JavaScript er av eller Vi ikke svarer. Nye møter trenger ikke legges der.
+
+Kalenderen kan også abonneres på i kalenderapper: https://venstre.medvi.no/kalender/arrangementer-2paqpn.ics
 
 ### Styret
 * Oppdater `_data/styret.json`
