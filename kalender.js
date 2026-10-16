@@ -1,7 +1,7 @@
 // Møtene hentes fra Venstrekoderne sin kalender i Vi (venstre.medvi.no →
 // Venstrekoderne → Arrangementer). Vi er kilden: nye møter legges inn der,
-// og denne siden viser dem selv. Uten JavaScript, eller om Vi ikke svarer,
-// står møtene fra _posts og _includes igjen som før.
+// og denne siden viser dem selv. Svarer ikke Vi, vises ingen møter: heller
+// ingenting enn gamle opplysninger.
 const KALENDER = "https://venstre.medvi.no/kalender/arrangementer-2paqpn.json";
 
 // Møtene som sto på den gamle siden beholder ankrene sine, så lenker til
